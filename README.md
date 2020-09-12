@@ -13,7 +13,7 @@ choco install -y boxstarter
 ## Launch Boxstarter Setup Script
 ```
 BOXSTARTERSHELL
-Install-BoxstarterPackage -PackageName https://github.com/miyamam/boxstarter/raw/master/boxstarter.txt
+Install-BoxstarterPackage -PackageName https://github.com/snyt45/boxstarter/blob/master/boxstarter.txt
 ```
 
 ## Check the installation package
