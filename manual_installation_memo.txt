@@ -1,0 +1,16 @@
+# Chocolateyパッケージがないもの、パッケージ更新が遅いものは別途入れます。メモです。
+#--- Install manually ---
+# install Ubuntu 
+
+#--- Windows Settings manually ---
+# MicrosoftIME 無変換キーに「IMEオフ」、変換キーに「IMEオン」割当
+# MicrosoftIME 入力設定のスペース「常に半角」割当
+# ゲーム>キャプチャ>ゲームのプレイ中にバックグラウンドで記録する　ON
+# ゲーム>キャプチャ>最後を記録する　10分（要再起動）
+
+#--- Apps Settings manually ---
+# VSCodeの設定を共有【Settings Sync】 https://qiita.com/kazurego7/items/3dc5a381811e4d429533
+
+#--- Windows Subsystems/Features manually  ---
+# WSL2のインストール手順はここで確認 --> https://docs.microsoft.com/ja-jp/windows/wsl/install-win10
+# Docker Desktop for Windowsのインストール手順はここで確認 --> https://dev.classmethod.jp/articles/docker-desktop-for-windows-on-wsl2/

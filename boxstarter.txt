@@ -1,25 +1,25 @@
 # Learn more: http://boxstarter.org/Learn/WebLauncher
 
-# Chocolateyパッケージがないもの、パッケージ更新が遅いものは別途入れます。メモです。
-# Install manually (Ubuntu, GoogleChromeIME)
-
 #---- TEMPORARY ---
 Disable-UAC
 
 #--- Windows Settings ---
 # 可能な設定はここで確認 --> [Boxstarter WinConfig Features](http://boxstarter.org/WinConfig)
+
+# ゲーム（またはWindows 10がゲームであると見なすもの）が起動されたときに表示されるWindows10のGameBarヒントをオフ
 Disable-GameBarTips
+# 「隠しファイル・フォルダ」「OSのシステムファイル」「拡張子」を表示
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+# 「すべてのフォルダーを表示」
 Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneShowAllFolders -Value 1
 
 #--- Tools ---
+# Git Bashもインストールされる
 choco install git.install
 
 #--- Apps ---
 choco install googlechrome
-choco install docker-for-windows
 choco install vscode
-choco install neovim
 choco install mysql.workbench
 
 #--- Restore Temporary Settings ---
