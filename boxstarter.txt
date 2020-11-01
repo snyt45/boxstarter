@@ -21,6 +21,8 @@ choco install git.install
 choco install googlechrome
 choco install vscode
 choco install mysql.workbench
+choco install hugo
+choco install hugo-extended
 
 #--- Restore Temporary Settings ---
 Enable-UAC
